@@ -1,22 +1,19 @@
 server:
   port: 9000
-spring:
-  application:
-    name: server-router-zuul
   cloud:
     config:
       discovery:
         enabled: true
         service-id: server-config
       profile: pro
-zuul:
-  routes:
+#zuul:
+  #routes:
 #    myUser:
 #      path: /myUser/**
 #      serviceId: service-user
   #简洁写法
-    service-user: /myUser/**
-  ignored-patterns: /**/service-user/index2
+    #service-user: /myUser/**
+  #ignored-patterns: /**/service-user/index2
   #排除某些路由
 
 management:
