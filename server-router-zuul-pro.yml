@@ -3,12 +3,6 @@ server:
 spring:
   application:
     name: server-router-zuul
-  cloud:
-    config:
-      discovery:
-        enabled: true
-        service-id: server-config
-      profile: pro
 zuul:
   routes:
   #排除某些路由
