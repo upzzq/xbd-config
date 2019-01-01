@@ -3,7 +3,9 @@ server:
 spring:
   application:
     name: server-router-zuul
-#zuul:
+zuul:
+  #所有服务都可以传递cookie(所有服务忽略敏感头)
+  sensitive-headers: 
   #routes:
   #排除某些路由
   #ignored-patterns: /**/service-user/index2
