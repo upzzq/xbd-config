@@ -6,7 +6,9 @@ server:
         enabled: true
         service-id: server-config
       profile: pro
-#zuul:
+zuul:
+  #所有服务都可以传递cookie(所有服务忽略敏感头)
+  sensitive-headers: 
   #routes:
 #    myUser:
 #      path: /myUser/**
