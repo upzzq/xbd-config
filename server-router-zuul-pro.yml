@@ -3,8 +3,8 @@ server:
 spring:
   application:
     name: server-router-zuul
-zuul:
-  routes:
+#zuul:
+  #routes:
   #排除某些路由
-  ignored-patterns: /**/service-user/index2
+  #ignored-patterns: /**/service-user/index2
   
