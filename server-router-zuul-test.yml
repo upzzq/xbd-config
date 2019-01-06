@@ -1,15 +1,6 @@
 
 server:
   port: 9000
-spring:
-  application:
-    name: server-router-zuul
-  cloud:
-    config:
-      discovery:
-        enabled: true
-        service-id: server-config
-      profile: pro
 zuul:
   #所有服务都可以传递cookie(所有服务忽略敏感头)
   sensitive-headers: 
@@ -26,3 +17,7 @@ management:
   security:
     enabled: false
 
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
