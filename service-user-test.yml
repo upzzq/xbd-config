@@ -1,8 +1,6 @@
 server:
   port: 8080
 spring:
-  application:
-    name: service-user
   datasource:
     username: root
     password: 123456
@@ -36,12 +34,3 @@ eureka:
       defaultZone: http://127.0.0.1:8761/eureka
       
 
-#mybatis配置    
-mybatis:
-    type-aliases-package: com.xbd.hk.user.pojo
-    mapper-locations: classpath:mappers/*.xml
-
-#通用Mapper配置
-mapper:
-    not-empty: false
-    identity: MYSQL
