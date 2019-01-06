@@ -14,7 +14,12 @@ zuul:
     #service-user: /myUser/**
   #ignored-patterns: /**/service-user/index2
   #排除某些路由
-
+  
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+      
 management:
   security:
     enabled: false
