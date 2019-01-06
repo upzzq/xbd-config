@@ -1,5 +1,8 @@
 server:
   port: 9000
+spring:
+  application:
+    name: server-router-zuul
 zuul:
   #所有服务都可以传递cookie(所有服务忽略敏感头)
   sensitive-headers: 
