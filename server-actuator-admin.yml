@@ -2,4 +2,4 @@ server:
   port: 8000
 spring:
   application:
-    name: server-router-zuul
+    name: server-actuator-admin
