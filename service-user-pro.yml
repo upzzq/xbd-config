@@ -29,13 +29,6 @@ spring:
     useGlobalDataSourceStat: true
     
 env: pro
-eureka:
-  instance:
-    preferIpAddress: true
-    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
       
 
 
