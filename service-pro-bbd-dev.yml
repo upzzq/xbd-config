@@ -28,14 +28,6 @@ spring:
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
     # 合并多个DruidDataSource的监控数据
     useGlobalDataSourceStat: true
-    
-eureka:
-  instance:
-    preferIpAddress: true
-    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
       
 
 
