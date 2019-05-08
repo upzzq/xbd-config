@@ -7,11 +7,3 @@ zuul:
   #排除某些路由
   #ignored-patterns: /**/service-user/index2
   
-eureka:
-  instance:
-    preferIpAddress: true
-    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
-  
