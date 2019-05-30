@@ -1,7 +1,6 @@
 
 server:
   port: 8180
-hk: service-pro-bbd-pro配置
 spring:
   datasource:
     username: root
