@@ -1,7 +1,7 @@
 
 server:
   port: 8180
-hk: pro
+hk: pro呵呵
 spring:
   datasource:
     username: root
