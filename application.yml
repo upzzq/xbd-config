@@ -24,6 +24,7 @@ spring:
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
     # 合并多个DruidDataSource的监控数据
     useGlobalDataSourceStat: true
+
   #这只zipkin地址
   zipkin:
     base-url: http://101.132.151.69:9411/
@@ -32,3 +33,4 @@ spring:
     sampler:
       #请求抽样百分比,默认抽取百分之10(0.1f)到zipkin中,百分之十足够发现问题所在了,开发环境设置为100%
       percentage: 1
+
