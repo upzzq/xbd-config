@@ -7,4 +7,3 @@ zuul:
   #排除某些路由
   #ignored-patterns: /**/service-user/index2
   
-hk: 球球a
