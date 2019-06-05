@@ -13,7 +13,5 @@ zuul:
   #排除某些路由
   
       
-management:
-  security:
-    enabled: false
+
 
