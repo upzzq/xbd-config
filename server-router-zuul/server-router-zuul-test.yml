@@ -13,6 +13,3 @@ zuul:
   #ignored-patterns: /**/service-user/index2
   #排除某些路由
 
-management:
-  security:
-    enabled: false
