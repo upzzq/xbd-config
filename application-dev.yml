@@ -33,3 +33,8 @@ logging:
 management:
   security:
     enabled: false
+    
+xbd:
+  svc:
+    swagger:
+      enable: true
