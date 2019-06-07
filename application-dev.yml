@@ -27,7 +27,6 @@ spring:
 
 logging:
   level:
-    #org.springframework: debug
     com.xbd.svc: debug
 
 management:
